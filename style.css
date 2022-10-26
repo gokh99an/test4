@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.navbar {
+    background-image: linear-gradient(45deg, #71174d, #085e7d);
+  }
+
+  body {
+    background-color: #e2f1f6;
+  }
+
+  #map {
+    height: 450px;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    padding:15px;
+    background-color: #000;
+    color:khaki;
+  }
+
+  .social-media {
+    float: right;
+    height: 30px;
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .social-media div {
+    display: inline;
+  }
+
+  .social-media div a {
+    display: inline-flex;
+    width: 45px;
+    height: 45px;
+    background: cadetblue;
+    font-size: 20px;
+    color: aliceblue;
+    margin: 0 5px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-media .facebook a:hover {
+    background: #4267B2;
+  }
+
+  .social-media .twitter a:hover {
+    background: #1da1f2;
+  }
+
+  .social-media .instagram a:hover {
+    background: rgb(18, 86, 136);
+  }
+
+  .social-media .linkedin a:hover {
+    background: rgb(0, 123, 181);
+  }
+
+  .social-media a i {
+    transition: 0.5s all;
+  }
+  
+  .social-media a:hover > i {
+    transform: scale(1.8);
+  }
+
+  .second_img {
+    float: right;
+    margin-top: 75px;
+  }
+  
+  .first_img {
+    margin-right: 60px;
+  }
